@@ -14,7 +14,7 @@ class TaskItem extends StatelessWidget {
       elevation: 15,
       margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       child: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(15.0),
         child: Row(
           children: [
             Container(

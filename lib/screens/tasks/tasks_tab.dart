@@ -15,7 +15,7 @@ class TasksTap extends StatelessWidget {
           firstDate: DateTime.now().subtract(const Duration(days: 365)),
           lastDate: DateTime.now().add(const Duration(days: 365)),
           onDateSelected: (date) => print(date),
-          leftMargin: 20,
+          leftMargin: 10,
           monthColor: primary,
           dayColor: primary,
           activeDayColor: Colors.white,
@@ -26,7 +26,7 @@ class TasksTap extends StatelessWidget {
         ),
         Expanded(
           child: Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.all(10.0),
             child: ListView.builder(
               itemBuilder: (context, index) {
                 return const TaskItem();
